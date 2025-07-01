@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "test": "Test"
+  },
+  "home": {
+    "title": "Welcome to Our International App",
+    "subtitle": "Built with Next.js and next-intl",
+    "description": "This is a modern internationalized web application supporting multiple languages with seamless navigation and beautiful design.",
+    "cta": "Get Started",
+    "features": {
+      "responsive": "Responsive Design",
+      "i18n": "Internationalization",
+      "typescript": "TypeScript",
+      "tailwind": "Tailwind CSS"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Learn more about our mission and values",
+    "content": "We are a modern company focused on creating innovative solutions for the global market. Our team is dedicated to delivering high-quality products that make a difference.",
+    "team": "Our Team",
+    "mission": "Our Mission",
+    "values": "Our Values"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "test": {
+    "title": "Language Test Page",
+    "subtitle": "Test the language switching functionality",
+    "description": "This page demonstrates the internationalization features of our application. You can switch between languages using the language switcher in the header.",
+    "currentLanguage": "Current Language",
+    "switchInstructions": "Use the language switcher in the header to change languages.",
+    "features": {
+      "title": "Features Tested",
+      "navigation": "Navigation Links",
+      "content": "Dynamic Content",
+      "routing": "Locale-based Routing"
+    }
+  }
+}

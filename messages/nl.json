@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Over",
+    "contact": "Contact",
+    "test": "Test"
+  },
+  "home": {
+    "title": "Welkom bij Onze Internationale App",
+    "subtitle": "Gebouwd met Next.js en next-intl",
+    "description": "Dit is een moderne geïnternationaliseerde webapplicatie die meerdere talen ondersteunt met naadloze navigatie en prachtig ontwerp.",
+    "cta": "Aan de Slag",
+    "features": {
+      "responsive": "Responsief Ontwerp",
+      "i18n": "Internationalisatie",
+      "typescript": "TypeScript",
+      "tailwind": "Tailwind CSS"
+    }
+  },
+  "about": {
+    "title": "Over Ons",
+    "subtitle": "Leer meer over onze missie en waarden",
+    "content": "Wij zijn een modern bedrijf gericht op het creëren van innovatieve oplossingen voor de wereldmarkt. Ons team is toegewijd aan het leveren van hoogwaardige producten die het verschil maken.",
+    "team": "Ons Team",
+    "mission": "Onze Missie",
+    "values": "Onze Waarden"
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "subtitle": "Kom in contact met ons team",
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht",
+      "submit": "Verstuur Bericht"
+    }
+  },
+  "test": {
+    "title": "Taal Test Pagina",
+    "subtitle": "Test de taalwisselfunctionaliteit",
+    "description": "Deze pagina toont de internationalisatiefuncties van onze applicatie. Je kunt tussen talen wisselen met de taalwisselaar in de header.",
+    "currentLanguage": "Huidige Taal",
+    "switchInstructions": "Gebruik de taalwisselaar in de header om van taal te wisselen.",
+    "features": {
+      "title": "Geteste Functies",
+      "navigation": "Navigatielinks",
+      "content": "Dynamische Inhoud",
+      "routing": "Locale-gebaseerde Routing"
+    }
+  }
+}
