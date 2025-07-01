@@ -227,6 +227,27 @@
     "relatedProducts": "Gerelateerde Producten",
     "backToProducts": "Terug naar Producten"
   },
+  "productDetail": {
+    "specifications": "Productspecificaties",
+    "type": "Type",
+    "origin": "Herkomst",
+    "purity": "Zuiverheid",
+    "germination": "Kiemkracht",
+    "moisture": "Vochtigheid",
+    "packaging": "Verpakking",
+    "availability": "Beschikbaarheid",
+    "inStock": "Op voorraad",
+    "outOfStock": "Uitverkocht",
+    "harvestYear": "Oogstjaar",
+    "interested": "Geïnteresseerd in dit product?",
+    "interestedDescription": "Neem contact met ons op voor prijzen, beschikbaarheid en aangepaste oplossingen.",
+    "requestQuote": "Offerte Aanvragen",
+    "moreInformation": "Meer Informatie",
+    "relatedProducts": "Gerelateerde Producten",
+    "relatedProductsComingSoon": "Gerelateerde producten worden binnenkort toegevoegd.",
+    "featured": "Aanbevolen",
+    "organic": "Biologisch"
+  },
   "quality": {
     "title": "Kwaliteit & Certificeringen",
     "subtitle": "Ons toewijding aan excellentie en kwaliteitsborging",
