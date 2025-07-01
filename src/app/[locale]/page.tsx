@@ -1,16 +1,48 @@
 import {useTranslations} from 'next-intl';
 import {Link} from '../../i18n/routing';
 import Hero from '../components/Hero';
+import { StructuredData } from '../../components/StructuredData';
+import { generateMetadata as generateSEOMetadata, larGroupSEO } from '../../lib/seo';
+import { generateStructuredData } from '../../lib/structured-data';
+import { Metadata } from 'next';
 
 interface HomePageProps {
   params: Promise<{ locale: string }>;
 }
 
+// Generate metadata for homepage
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const { locale } = resolvedParams;
+  
+  return generateSEOMetadata({
+    title: `${larGroupSEO.siteName} - ${larGroupSEO.tagline}`,
+    description: larGroupSEO.description[locale as keyof typeof larGroupSEO.description] || larGroupSEO.description.en,
+    keywords: larGroupSEO.keywords[locale as keyof typeof larGroupSEO.keywords] || larGroupSEO.keywords.en,
+    type: 'website',
+    url: '/',
+  }, locale);
+}
+
 export default async function HomePage({ params }: HomePageProps) {
   const { locale } = await params;
   
+  // Generate structured data for the homepage
+  const webpageData = generateStructuredData({
+    type: 'webpage',
+    locale,
+    title: `${larGroupSEO.siteName} - ${larGroupSEO.tagline}`,
+    description: larGroupSEO.description[locale as keyof typeof larGroupSEO.description] || larGroupSEO.description.en,
+    url: '/',
+  });
+  
   return (
     <div>
+      <StructuredData data={webpageData} />
       <Hero locale={locale} />
       
       {/* Product Categories Section */}
