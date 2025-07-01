@@ -10,11 +10,11 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const navigation = [
-    { name: 'Home', href: `/${locale}` },
-    { name: 'About', href: `/${locale}/about` },
-    { name: 'Products', href: `/${locale}/products` },
-    { name: 'Quality & Certifications', href: `/${locale}/quality-and-certifications` },
-    { name: 'Contact', href: `/${locale}/contact` },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Products', href: '/products' },
+    { name: 'Quality & Certifications', href: '/quality-and-certifications' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   return (
@@ -141,10 +141,10 @@ export default function Footer() {
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <Link href={`/${locale}/privacy-policy`} className="hover:text-white transition-colors">
+              <Link href="/privacy-policy" className="hover:text-white transition-colors">
                 {locale === 'nl' ? 'Privacybeleid' : 'Privacy Policy'}
               </Link>
-              <Link href={`/${locale}/terms-of-service`} className="hover:text-white transition-colors">
+              <Link href="/terms-of-service" className="hover:text-white transition-colors">
                 {locale === 'nl' ? 'Algemene Voorwaarden' : 'Terms of Service'}
               </Link>
               <div className="text-gray-500">

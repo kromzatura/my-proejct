@@ -32,13 +32,13 @@ export default function Hero({ locale }: HeroProps) {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link 
-            href={`/${locale}/contact`}
+            href="/contact"
             className="bg-white text-blue-900 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-colors shadow-lg"
           >
             {locale === 'nl' ? 'Vraag Offerte Aan' : 'Request Quote'}
           </Link>
           <Link 
-            href={`/${locale}/products`}
+            href="/products"
             className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-blue-900 transition-colors"
           >
             {locale === 'nl' ? 'Bekijk Producten' : 'View Products'}

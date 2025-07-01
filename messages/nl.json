@@ -10,46 +10,46 @@
   },
   "home": {
     "hero": {
-      "title": "Excellentie in B2B Oplossingen",
-      "subtitle": "LAR Group levert innovatieve producten en diensten aan bedrijven wereldwijd",
-      "description": "Met tientallen jaren ervaring in de industrie bieden wij betrouwbare, hoogwaardige oplossingen die uw bedrijf helpen groeien en slagen.",
+      "title": "Professionele Zaden & Granen Excellentie",
+      "subtitle": "LAR Group B.V. levert premium kwaliteit zaden en granen aan bedrijven wereldwijd",
+      "description": "Met jaren toegewijde ervaring in de agrarische industrie bieden wij betrouwbare, gecertificeerde producten die uw bedrijf helpen groeien en slagen.",
       "cta": "Ontdek Onze Producten",
       "ctaSecondary": "Offerte Aanvragen"
     },
     "features": {
-      "title": "Waarom Kiezen voor LAR Group",
+      "title": "Waarom Kiezen voor LAR Group B.V.",
       "quality": {
-        "title": "Premium Kwaliteit",
-        "description": "Al onze producten voldoen aan de hoogste industriestandaarden en certificeringen"
+        "title": "Premium Kwaliteit Zaden",
+        "description": "Al onze zaden en granen voldoen aan de hoogste agrarische standaarden en certificeringen"
       },
       "experience": {
-        "title": "Bewezen Ervaring",
-        "description": "Tientallen jaren expertise in het bedienen van bedrijven in verschillende industrieën"
+        "title": "Agrarische Expertise",
+        "description": "Jaren gespecialiseerde ervaring in het bedienen van agrarische bedrijven en boeren"
       },
       "service": {
-        "title": "Uitzonderlijke Service",
-        "description": "Toegewijd supportteam dat zorgt voor uw volledige tevredenheid"
+        "title": "Betrouwbare Service",
+        "description": "Toegewijd supportteam dat zorgt voor tijdige levering en volledige tevredenheid"
       },
       "innovation": {
-        "title": "Continue Innovatie",
-        "description": "Altijd vooruitstrevend om u de nieuwste oplossingen en technologieën te brengen"
+        "title": "Kwaliteitsborging",
+        "description": "Continue testing en kwaliteitscontrole om u de beste zaden en granen te brengen"
       }
     }
   },
   "about": {
-    "title": "Over LAR Group",
-    "subtitle": "Uw vertrouwde partner in B2B excellentie",
+    "title": "Over LAR Group B.V.",
+    "subtitle": "Uw vertrouwde partner in professionele zaden & granen",
     "hero": {
-      "title": "Leidend in de Industrie met Innovatie en Kwaliteit",
-      "description": "Al meer dan [X] jaar staat LAR Group voorop in het leveren van uitzonderlijke B2B oplossingen aan bedrijven wereldwijd."
+      "title": "Leidend in de Agrarische Industrie met Kwaliteit en Betrouwbaarheid",
+      "description": "LAR Group B.V. staat voorop in het leveren van uitzonderlijke zaden en granen aan agrarische bedrijven wereldwijd."
     },
     "story": {
       "title": "Ons Verhaal",
-      "content": "Opgericht met de visie om het B2B landschap te revolutioneren, is LAR Group gegroeid van een kleine startup tot een wereldleider in onze industrie. We hebben onze reputatie opgebouwd door compromisloze kwaliteit, innovatieve oplossingen en uitzonderlijke klantenservice te leveren."
+      "content": "Opgericht met de visie om de agrarische toeleveringsketen te revolutioneren, is LAR Group B.V. uitgegroeid tot een vertrouwde leverancier van premium zaden en granen. We hebben onze reputatie opgebouwd door compromisloze kwaliteit, betrouwbare levering en uitzonderlijke klantenservice aan boeren en agrarische bedrijven."
     },
     "mission": {
       "title": "Onze Missie",
-      "content": "Bedrijven wereldwijd versterken met innovatieve, hoogwaardige producten en diensten die groei, efficiëntie en succes stimuleren."
+      "content": "Agrarische bedrijven wereldwijd versterken met premium kwaliteit zaden en granen die groei, productiviteit en succes in landbouwactiviteiten stimuleren."
     },
     "values": {
       "title": "Onze Waarden",
@@ -80,29 +80,29 @@
     }
   },
   "contact": {
-    "title": "Contact LAR Group",
-    "subtitle": "Neem contact op met ons expert team",
+    "title": "Contact LAR Group B.V.",
+    "subtitle": "Neem contact op met onze agrarische experts",
     "hero": {
       "title": "Klaar om Partner te Worden?",
-      "description": "Neem vandaag contact op met ons team om uw eisen te bespreken en te ontdekken hoe LAR Group uw bedrijf kan helpen slagen."
+      "description": "Neem vandaag contact op met ons team om uw zaden en granen behoeften te bespreken en te ontdekken hoe LAR Group B.V. uw agrarische bedrijf kan helpen slagen."
     },
     "info": {
       "title": "Contactinformatie",
       "address": {
         "title": "Ons Kantoor",
-        "line1": "[Adres Regel 1]",
-        "line2": "[Adres Regel 2]",
-        "city": "[Stad, Land]"
+        "line1": "LAR Group B.V.",
+        "line2": "Professionele Zaden & Granen",
+        "city": "Nederland"
       },
       "phone": {
         "title": "Telefoon",
-        "number": "+XX XXX XXX XXXX"
+        "number": "+31 6 17144921"
       },
       "email": {
         "title": "E-mail",
-        "general": "info@largroup.com",
-        "sales": "verkoop@largroup.com",
-        "support": "support@largroup.com"
+        "general": "alex.trade@largseeds.nl",
+        "sales": "alex.trade@largseeds.nl",
+        "support": "alex.trade@largseeds.nl"
       },
       "hours": {
         "title": "Openingstijden",
@@ -125,10 +125,10 @@
         "consent": "Ik ga akkoord met de verwerking van mijn persoonlijke gegevens volgens het privacybeleid"
       },
       "interests": {
-        "products": "Producten",
-        "services": "Diensten",
-        "partnership": "Partnerschap",
-        "support": "Support",
+        "products": "Zaden & Granen",
+        "services": "Agrarische Diensten",
+        "partnership": "Zakelijk Partnerschap",
+        "support": "Technische Support",
         "other": "Anders"
       },
       "submit": "Bericht Versturen",
@@ -137,16 +137,16 @@
     }
   },
   "blog": {
-    "title": "LAR Group Blog",
-    "subtitle": "Industrie-inzichten, nieuws en expertkennis",
+    "title": "LAR Group B.V. Blog",
+    "subtitle": "Agrarische inzichten, nieuws en expertkennis",
     "hero": {
-      "title": "Blijf op de Hoogte van Onze Laatste Inzichten",
-      "description": "Ontdek industrietrends, productupdate en expertinzichten van het LAR Group team."
+      "title": "Blijf op de Hoogte van Onze Laatste Agrarische Inzichten",
+      "description": "Ontdek agrarische trends, productupdate en expertinzichten van het LAR Group B.V. team."
     },
     "categories": {
       "all": "Alle Artikelen",
-      "industry": "Industrienieuws",
-      "products": "Productupdate",
+      "industry": "Agrarisch Nieuws",
+      "products": "Zaden & Granen Updates",
       "insights": "Expertinzichten",
       "announcements": "Bedrijfsnieuws"
     },
@@ -167,7 +167,7 @@
     },
     "categories": {
       "general": "Algemeen",
-      "products": "Producten & Diensten",
+      "products": "Zaden & Granen",
       "orders": "Bestellingen & Levering",
       "quality": "Kwaliteit & Certificeringen",
       "support": "Technische Support",
@@ -193,5 +193,100 @@
       "content": "Dynamische Inhoud",
       "routing": "Locale-gebaseerde Routing"
     }
+  },
+  "products": {
+    "title": "Onze Producten",
+    "subtitle": "Premium kwaliteit zaden en granen voor uw agrarische behoeften",
+    "hero": {
+      "title": "Hoogwaardige Zaden & Granen",
+      "description": "Ontdek ons uitgebreide assortiment premium zaden en granen, zorgvuldig geselecteerd voor optimale opbrengst en kwaliteit."
+    },
+    "categories": {
+      "all": "Alle Producten",
+      "seeds": "Zaden",
+      "grains": "Granen",
+      "organic": "Biologisch",
+      "conventional": "Conventioneel"
+    },
+    "filters": {
+      "category": "Categorie",
+      "type": "Type",
+      "origin": "Herkomst",
+      "certification": "Certificering"
+    },
+    "sort": {
+      "name": "Naam",
+      "price": "Prijs",
+      "popularity": "Populariteit",
+      "newest": "Nieuwste"
+    },
+    "viewDetails": "Bekijk Details",
+    "requestQuote": "Offerte Aanvragen",
+    "specifications": "Specificaties",
+    "certifications": "Certificeringen",
+    "relatedProducts": "Gerelateerde Producten",
+    "backToProducts": "Terug naar Producten"
+  },
+  "quality": {
+    "title": "Kwaliteit & Certificeringen",
+    "subtitle": "Ons toewijding aan excellentie en kwaliteitsborging",
+    "hero": {
+      "title": "Ongeëvenaarde Kwaliteitsstandaarden",
+      "description": "Bij LAR Group B.V. houden we ons aan de hoogste kwaliteitsstandaarden en internationale certificeringen om de beste producten te garanderen."
+    },
+    "standards": {
+      "title": "Onze Kwaliteitsstandaarden",
+      "description": "We handhaven strikte kwaliteitscontroles in elke stap van ons proces"
+    },  
+    "certifications": {
+      "title": "Certificeringen",
+      "description": "Erkend door toonaangevende internationale organisaties"
+    },
+    "testing": {
+      "title": "Testing & Validatie",
+      "description": "Uitgebreide testprocedures zorgen voor productkwaliteit"
+    },
+    "compliance": {
+      "title": "Regelgeving Naleving",
+      "description": "Volledig conform internationale agrarische voorschriften"
+    },
+    "viewCertificate": "Bekijk Certificaat",
+    "downloadPdf": "Download PDF"
+  },
+  "footer": {
+    "company": {
+      "title": "LAR Group B.V.",
+      "description": "Uw vertrouwde partner voor premium kwaliteit zaden en granen, die agrarische bedrijven wereldwijd bedient.",
+      "tagline": "Professionele Zaden & Granen"
+    },
+    "quickLinks": {
+      "title": "Snelle Links",
+      "home": "Home",
+      "about": "Over Ons", 
+      "products": "Producten",
+      "quality": "Kwaliteit",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact Info",
+      "phone": "+31 6 17144921",
+      "email": "alex.trade@largseeds.nl",
+      "address": "Nederland"
+    },
+    "legal": {
+      "title": "Juridisch",
+      "privacy": "Privacybeleid",
+      "terms": "Algemene Voorwaarden",
+      "cookies": "Cookie Beleid"
+    },
+    "social": {
+      "title": "Volg Ons",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "facebook": "Facebook"
+    },
+    "copyright": "© 2025 LAR Group B.V. Alle rechten voorbehouden."
   }
 }

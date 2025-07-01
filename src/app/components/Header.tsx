@@ -13,13 +13,13 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
-    { name: t('home'), href: `/${locale}` },
-    { name: t('about'), href: `/${locale}/about` },
-    { name: t('products'), href: `/${locale}/products` },
-    { name: t('quality'), href: `/${locale}/quality-and-certifications` },
-    { name: t('blog'), href: `/${locale}/blog` },
-    { name: t('faq'), href: `/${locale}/faq` },
-    { name: t('contact'), href: `/${locale}/contact` },
+    { name: t('home'), href: '/' },
+    { name: t('about'), href: '/about' },
+    { name: t('products'), href: '/products' },
+    { name: t('quality'), href: '/quality-and-certifications' },
+    { name: t('blog'), href: '/blog' },
+    { name: t('faq'), href: '/faq' },
+    { name: t('contact'), href: '/contact' },
   ];
 
   const switchLocale = (newLocale: string) => {
@@ -39,7 +39,7 @@ export default function Header() {
           
           {/* LAR Group Logo */}
           <div className="flex items-center">
-            <Link href={`/${locale}`} className="flex items-center space-x-3">
+            <Link href="/" className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-blue-900 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">L</span>
               </div>

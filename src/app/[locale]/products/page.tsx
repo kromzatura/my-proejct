@@ -1,3 +1,5 @@
+import { Link } from '../../../i18n/routing';
+
 export default async function ProductsPage({ 
   params 
 }: { 
@@ -105,12 +107,12 @@ export default async function ProductsPage({
                 : 'We are working on a comprehensive product catalog. Contact us for specific product inquiries.'
               }
             </p>
-            <a 
-              href={`/${locale}/contact`}
+            <Link 
+              href="/contact"
               className="inline-block bg-blue-900 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-800 transition-colors"
             >
               {locale === 'nl' ? 'Neem Contact Op' : 'Contact Us'}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

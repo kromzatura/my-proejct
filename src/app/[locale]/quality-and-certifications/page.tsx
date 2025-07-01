@@ -1,3 +1,5 @@
+import { Link } from '../../../i18n/routing';
+
 export default async function QualityPage({ 
   params 
 }: { 
@@ -132,12 +134,12 @@ export default async function QualityPage({
                 : 'Contact us for more information about our quality standards'
               }
             </p>
-            <a 
-              href={`/${locale}/contact`}
+            <Link 
+              href="/contact"
               className="inline-block bg-white text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors"
             >
               {locale === 'nl' ? 'Neem Contact Op' : 'Contact Us'}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

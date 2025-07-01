@@ -10,46 +10,46 @@
   },
   "home": {
     "hero": {
-      "title": "Excellence in B2B Solutions",
-      "subtitle": "LAR Group delivers innovative products and services to businesses worldwide",
-      "description": "With decades of experience in the industry, we provide reliable, high-quality solutions that help your business grow and succeed.",
+      "title": "Professional Seeds & Grains Excellence",
+      "subtitle": "LAR Group B.V. delivers premium quality seeds and grains to businesses worldwide",
+      "description": "With years of dedicated experience in the agricultural industry, we provide reliable, certified products that help your business grow and succeed.",
       "cta": "Explore Our Products",
       "ctaSecondary": "Request Quote"
     },
     "features": {
-      "title": "Why Choose LAR Group",
+      "title": "Why Choose LAR Group B.V.",
       "quality": {
-        "title": "Premium Quality",
-        "description": "All our products meet the highest industry standards and certifications"
+        "title": "Premium Quality Seeds",
+        "description": "All our seeds and grains meet the highest agricultural standards and certifications"
       },
       "experience": {
-        "title": "Proven Experience",
-        "description": "Decades of expertise serving businesses across multiple industries"
+        "title": "Agricultural Expertise",
+        "description": "Years of specialized experience serving agricultural businesses and farmers"
       },
       "service": {
-        "title": "Exceptional Service",
-        "description": "Dedicated support team ensuring your complete satisfaction"
+        "title": "Reliable Service",
+        "description": "Dedicated support team ensuring timely delivery and complete satisfaction"
       },
       "innovation": {
-        "title": "Continuous Innovation",
-        "description": "Always advancing to bring you the latest solutions and technologies"
+        "title": "Quality Assurance",
+        "description": "Continuous testing and quality control to bring you the best seeds and grains"
       }
     }
   },
   "about": {
-    "title": "About LAR Group",
-    "subtitle": "Your trusted partner in B2B excellence",
+    "title": "About LAR Group B.V.",
+    "subtitle": "Your trusted partner in professional seeds & grains",
     "hero": {
-      "title": "Leading the Industry with Innovation and Quality",
-      "description": "For over [X] years, LAR Group has been at the forefront of providing exceptional B2B solutions to companies worldwide."
+      "title": "Leading the Agricultural Industry with Quality and Reliability",
+      "description": "LAR Group B.V. has been at the forefront of providing exceptional seeds and grains to agricultural businesses worldwide."
     },
     "story": {
       "title": "Our Story",
-      "content": "Founded with a vision to revolutionize the B2B landscape, LAR Group has grown from a small startup to a global leader in our industry. We've built our reputation on delivering uncompromising quality, innovative solutions, and exceptional customer service."
+      "content": "Founded with a vision to revolutionize the agricultural supply chain, LAR Group B.V. has grown to become a trusted supplier of premium seeds and grains. We've built our reputation on delivering uncompromising quality, reliable supply, and exceptional customer service to farmers and agricultural businesses."
     },
     "mission": {
       "title": "Our Mission",
-      "content": "To empower businesses worldwide with innovative, high-quality products and services that drive growth, efficiency, and success."
+      "content": "To empower agricultural businesses worldwide with premium quality seeds and grains that drive growth, productivity, and success in farming operations."
     },
     "values": {
       "title": "Our Values",
@@ -74,35 +74,35 @@
     },
     "stats": {
       "years": "Years of Experience",
-      "clients": "Satisfied Clients",
+      "clients": "Satisfied Customers",
       "countries": "Countries Served",
-      "products": "Products Delivered"
+      "products": "Quality Products Delivered"
     }
   },
   "contact": {
-    "title": "Contact LAR Group",
-    "subtitle": "Get in touch with our expert team",
+    "title": "Contact LAR Group B.V.",
+    "subtitle": "Get in touch with our agricultural experts",
     "hero": {
       "title": "Ready to Partner with Us?",
-      "description": "Contact our team today to discuss your requirements and discover how LAR Group can help your business succeed."
+      "description": "Contact our team today to discuss your seed and grain requirements and discover how LAR Group B.V. can help your agricultural business succeed."
     },
     "info": {
       "title": "Contact Information",
       "address": {
         "title": "Our Office",
-        "line1": "[Address Line 1]",
-        "line2": "[Address Line 2]",
-        "city": "[City, Country]"
+        "line1": "LAR Group B.V.",
+        "line2": "Professional Seeds & Grains",
+        "city": "Netherlands"
       },
       "phone": {
         "title": "Phone",
-        "number": "+XX XXX XXX XXXX"
+        "number": "+31 6 17144921"
       },
       "email": {
         "title": "Email",
-        "general": "info@largroup.com",
-        "sales": "sales@largroup.com",
-        "support": "support@largroup.com"
+        "general": "alex.trade@largseeds.nl",
+        "sales": "alex.trade@largseeds.nl",
+        "support": "alex.trade@largseeds.nl"
       },
       "hours": {
         "title": "Business Hours",
@@ -125,10 +125,10 @@
         "consent": "I agree to the processing of my personal data according to the privacy policy"
       },
       "interests": {
-        "products": "Products",
-        "services": "Services",
-        "partnership": "Partnership",
-        "support": "Support",
+        "products": "Seeds & Grains",
+        "services": "Agricultural Services",
+        "partnership": "Business Partnership",
+        "support": "Technical Support",
         "other": "Other"
       },
       "submit": "Send Message",
@@ -150,16 +150,16 @@
     }
   },
   "blog": {
-    "title": "LAR Group Blog",
-    "subtitle": "Industry insights, news, and expert knowledge",
+    "title": "LAR Group B.V. Blog",
+    "subtitle": "Agricultural insights, news, and expert knowledge",
     "hero": {
-      "title": "Stay Informed with Our Latest Insights",
-      "description": "Discover industry trends, product updates, and expert insights from the LAR Group team."
+      "title": "Stay Informed with Our Latest Agricultural Insights",
+      "description": "Discover agricultural trends, product updates, and expert insights from the LAR Group B.V. team."
     },
     "categories": {
       "all": "All Articles",
-      "industry": "Industry News",
-      "products": "Product Updates",
+      "industry": "Agricultural News",
+      "products": "Seeds & Grains Updates",
       "insights": "Expert Insights",
       "announcements": "Company News"
     },
@@ -180,7 +180,7 @@
     },
     "categories": {
       "general": "General",
-      "products": "Products & Services",
+      "products": "Seeds & Grains",
       "orders": "Orders & Delivery",
       "quality": "Quality & Certifications",
       "support": "Technical Support",
@@ -193,5 +193,100 @@
       "description": "Can't find what you're looking for? Our support team is here to help.",
       "contactButton": "Contact Support"
     }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Premium quality seeds and grains for your agricultural needs",
+    "hero": {
+      "title": "High-Quality Seeds & Grains",
+      "description": "Discover our comprehensive range of premium seeds and grains, carefully selected for optimal yield and quality."
+    },
+    "categories": {
+      "all": "All Products",
+      "seeds": "Seeds",
+      "grains": "Grains",
+      "organic": "Organic",
+      "conventional": "Conventional"
+    },
+    "filters": {
+      "category": "Category",
+      "type": "Type",
+      "origin": "Origin",
+      "certification": "Certification"
+    },
+    "sort": {
+      "name": "Name",
+      "price": "Price",
+      "popularity": "Popularity",
+      "newest": "Newest"
+    },
+    "viewDetails": "View Details",
+    "requestQuote": "Request Quote",
+    "specifications": "Specifications",
+    "certifications": "Certifications",
+    "relatedProducts": "Related Products",
+    "backToProducts": "Back to Products"
+  },
+  "quality": {
+    "title": "Quality & Certifications",
+    "subtitle": "Our commitment to excellence and quality assurance",
+    "hero": {
+      "title": "Uncompromising Quality Standards",
+      "description": "At LAR Group B.V., we adhere to the highest quality standards and international certifications to ensure the best products."
+    },
+    "standards": {
+      "title": "Our Quality Standards",
+      "description": "We maintain strict quality controls at every step of our process"
+    },
+    "certifications": {
+      "title": "Certifications",
+      "description": "Recognized by leading international organizations"
+    },
+    "testing": {
+      "title": "Testing & Validation",
+      "description": "Comprehensive testing procedures ensure product quality"
+    },
+    "compliance": {
+      "title": "Regulatory Compliance",
+      "description": "Fully compliant with international agricultural regulations"
+    },
+    "viewCertificate": "View Certificate",
+    "downloadPdf": "Download PDF"
+  },
+  "footer": {
+    "company": {
+      "title": "LAR Group B.V.",
+      "description": "Your trusted partner for premium quality seeds and grains, serving agricultural businesses worldwide.",
+      "tagline": "Professional Seeds & Grains"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "products": "Products",
+      "quality": "Quality",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact Info",
+      "phone": "+31 6 17144921",
+      "email": "alex.trade@largseeds.nl",
+      "address": "Netherlands"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "social": {
+      "title": "Follow Us",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter",
+      "facebook": "Facebook"
+    },
+    "copyright": "© 2025 LAR Group B.V. All rights reserved."
   }
 }
