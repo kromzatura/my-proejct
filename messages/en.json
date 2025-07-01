@@ -248,6 +248,47 @@
     "featured": "Featured",
     "organic": "Organic"
   },
+  "quoteForm": {
+    "title": "Request Quote",
+    "productLabel": "Product:",
+    "companyName": "Company Name",
+    "contactName": "Contact Person",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "product": "Product",
+    "quantity": "Desired Quantity",
+    "intendedUse": "Intended Use",
+    "specifications": "Specific Requirements/Quality Criteria",
+    "deliveryLocation": "Delivery Location",
+    "preferredDelivery": "Preferred Delivery Date",
+    "additionalInfo": "Additional Information",
+    "privacy": "I agree to the processing of my data for this quote request",
+    "cancel": "Cancel",
+    "submit": "Request Quote",
+    "submitting": "Sending...",
+    "success": {
+      "title": "Thank you for your request!",
+      "message": "We have received your quote request and will contact you within 24 hours.",
+      "close": "Close"
+    },
+    "placeholders": {
+      "product": "Which product do you need?",
+      "quantity": "e.g. 1000 kg, 50 tons",
+      "specifications": "e.g. organic certification, specific purity, germination rate...",
+      "deliveryLocation": "City, Country",
+      "preferredDelivery": "e.g. Q2 2025, ASAP, flexible",
+      "additionalInfo": "Any additional comments or questions..."
+    },
+    "usageOptions": {
+      "select": "Select use",
+      "agriculture": "Agriculture",
+      "foodProduction": "Food Production",
+      "feed": "Animal Feed",
+      "processing": "Processing",
+      "export": "Export",
+      "other": "Other"
+    }
+  },
   "quality": {
     "title": "Quality & Certifications",
     "subtitle": "Our commitment to excellence and quality assurance",

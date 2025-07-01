@@ -248,6 +248,47 @@
     "featured": "Aanbevolen",
     "organic": "Biologisch"
   },
+  "quoteForm": {
+    "title": "Offerte Aanvragen",
+    "productLabel": "Product:",
+    "companyName": "Bedrijfsnaam",
+    "contactName": "Contactpersoon",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "product": "Product",
+    "quantity": "Gewenste hoeveelheid",
+    "intendedUse": "Beoogd gebruik",
+    "specifications": "Specifieke eisen/kwaliteitscriteria",
+    "deliveryLocation": "Leveringslocatie",
+    "preferredDelivery": "Gewenste leveringsdatum",
+    "additionalInfo": "Aanvullende informatie",
+    "privacy": "Ik ga akkoord met de verwerking van mijn gegevens voor deze offerteaanvraag",
+    "cancel": "Annuleren",
+    "submit": "Offerte Aanvragen",
+    "submitting": "Versturen...",
+    "success": {
+      "title": "Bedankt voor uw aanvraag!",
+      "message": "We hebben uw offerteaanvraag ontvangen en zullen binnen 24 uur contact met u opnemen.",
+      "close": "Sluiten"
+    },
+    "placeholders": {
+      "product": "Welk product heeft u nodig?",
+      "quantity": "bijv. 1000 kg, 50 ton",
+      "specifications": "bijv. biologisch certificaat, specifieke zuiverheid, kiemkracht...",
+      "deliveryLocation": "Stad, Land",
+      "preferredDelivery": "bijv. Q2 2025, ASAP, flexibel",
+      "additionalInfo": "Eventuele aanvullende opmerkingen of vragen..."
+    },
+    "usageOptions": {
+      "select": "Selecteer gebruik",
+      "agriculture": "Landbouw",
+      "foodProduction": "Voedselproductie",
+      "feed": "Veevoer",
+      "processing": "Verwerking",
+      "export": "Export",
+      "other": "Anders"
+    }
+  },
   "quality": {
     "title": "Kwaliteit & Certificeringen",
     "subtitle": "Ons toewijding aan excellentie en kwaliteitsborging",
