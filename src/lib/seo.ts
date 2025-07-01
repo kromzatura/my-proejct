@@ -6,7 +6,7 @@ export interface SEOConfig {
   keywords?: string[];
   image?: string;
   url?: string;
-  type?: 'website' | 'article' | 'product';
+  type?: 'website' | 'article';
 }
 
 export function generateMetadata(
