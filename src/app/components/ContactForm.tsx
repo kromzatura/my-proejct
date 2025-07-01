@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { trackContactForm } from '../../lib/analytics';
+import { pushContactFormEvent } from '../../lib/gtm';
 
 export default function ContactForm() {
   const t = useTranslations('contact.form');
@@ -33,10 +35,57 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission - replace with actual form handling
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      setSubmitStatus('success');
+      // Prepare data for Zoho Forms
+      const formPayload = new FormData();
+      formPayload.append('Name_First', formData.firstName);
+      formPayload.append('Name_Last', formData.lastName);
+      formPayload.append('Email', formData.email);
+      formPayload.append('SingleLine', formData.company); // Company field
+      formPayload.append('PhoneNumber_countrycode', formData.phone);
+      formPayload.append('Dropdown', formData.subject);
+      formPayload.append('MultiLine', formData.message);
+      formPayload.append('MultiSelect', formData.interests);
+      
+      // Submit to Zoho Forms (replace with your actual Zoho form URL)
+      const zohoFormUrl = process.env.NEXT_PUBLIC_ZOHO_CONTACT_FORM_URL;
+      
+      if (zohoFormUrl) {
+        const response = await fetch(zohoFormUrl, {
+          method: 'POST',
+          body: formPayload,
+          mode: 'no-cors' // Required for Zoho Forms
+        });
+        
+        // Since we're using no-cors, we can't check the response
+        // We'll assume success if no error is thrown
+        setSubmitStatus('success');
+        
+        // Track analytics events
+        trackContactForm(formData.subject || 'General Inquiry', formData.company);
+        pushContactFormEvent(formData.subject || 'General Inquiry', formData.company);
+      } else {
+        // Fallback - you can integrate with your own API endpoint
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+        
+        if (response.ok) {
+          setSubmitStatus('success');
+          
+          // Track analytics events
+          trackContactForm(formData.subject || 'General Inquiry', formData.company);
+          pushContactFormEvent(formData.subject || 'General Inquiry', formData.company);
+        } else {
+          throw new Error('Failed to submit form');
+        }
+      }
+      
+      // Reset form on success
       setFormData({
         firstName: '',
         lastName: '',
@@ -49,6 +98,7 @@ export default function ContactForm() {
         consent: false
       });
     } catch (error) {
+      console.error('Form submission error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);

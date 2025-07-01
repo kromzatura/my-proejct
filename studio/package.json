@@ -1,0 +1,21 @@
+{
+  "name": "lar-group-studio",
+  "version": "1.0.0",
+  "description": "LAR Group B.V. Sanity Studio",
+  "main": "package.json",
+  "author": "LAR Group B.V.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "sanity": "^3.56.0",
+    "@sanity/vision": "^3.56.0"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^3.56.0"
+  }
+}

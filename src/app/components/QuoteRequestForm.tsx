@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { trackQuoteRequest } from '../../lib/analytics';
+import { pushQuoteRequestEvent } from '../../lib/gtm';
 
 interface QuoteRequestFormProps {
   productName?: string;
@@ -33,15 +35,62 @@ export default function QuoteRequestForm({ productName, locale, onClose }: Quote
     };
 
     try {
-      // Here you would integrate with Zoho Forms or your form handling service
-      console.log('Quote request data:', data);
+      // Prepare data for Zoho Forms
+      const zohoFormData = new FormData();
+      zohoFormData.append('SingleLine', data.companyName as string); // Company Name
+      zohoFormData.append('Name_First', (data.contactName as string).split(' ')[0] || ''); // First Name
+      zohoFormData.append('Name_Last', (data.contactName as string).split(' ').slice(1).join(' ') || ''); // Last Name
+      zohoFormData.append('Email', data.email as string);
+      zohoFormData.append('PhoneNumber_countrycode', data.phone as string);
+      zohoFormData.append('SingleLine1', data.productName as string); // Product Name
+      zohoFormData.append('Number', data.quantity as string);
+      zohoFormData.append('Dropdown', data.usage as string);
+      zohoFormData.append('MultiLine', data.specifications as string);
+      zohoFormData.append('SingleLine2', data.deliveryLocation as string); // Delivery Location
+      zohoFormData.append('Date', data.preferredDelivery as string);
+      zohoFormData.append('MultiLine1', data.additionalInfo as string); // Additional Info
+      zohoFormData.append('Hidden', locale); // Locale for tracking
       
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      // Submit to Zoho Forms (replace with your actual Zoho quote form URL)
+      const zohoQuoteFormUrl = process.env.NEXT_PUBLIC_ZOHO_QUOTE_FORM_URL;
       
-      setSubmitted(true);
+      if (zohoQuoteFormUrl) {
+        const response = await fetch(zohoQuoteFormUrl, {
+          method: 'POST',
+          body: zohoFormData,
+          mode: 'no-cors' // Required for Zoho Forms
+        });
+        
+        // Since we're using no-cors, we can't check the response
+        // We'll assume success if no error is thrown
+        setSubmitted(true);
+        
+        // Track analytics events
+        trackQuoteRequest(data.productName as string, data.companyName as string);
+        pushQuoteRequestEvent(data.productName as string, data.companyName as string);
+      } else {
+        // Fallback - integrate with your own API endpoint
+        const response = await fetch('/api/quote', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+        });
+        
+        if (response.ok) {
+          setSubmitted(true);
+          
+          // Track analytics events
+          trackQuoteRequest(data.productName as string, data.companyName as string);
+          pushQuoteRequestEvent(data.productName as string, data.companyName as string);
+        } else {
+          throw new Error('Failed to submit quote request');
+        }
+      }
     } catch (error) {
       console.error('Error submitting quote request:', error);
+      // You might want to show an error message to the user here
     } finally {
       setIsSubmitting(false);
     }

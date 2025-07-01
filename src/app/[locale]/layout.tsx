@@ -8,6 +8,8 @@ import Footer from '../components/Footer';
 import { StructuredData } from '../../components/StructuredData';
 import { generateMetadata as generateSEOMetadata, larGroupSEO } from '../../lib/seo';
 import { generateStructuredData } from '../../lib/structured-data';
+import GoogleAnalytics from '../../lib/analytics';
+import GoogleTagManager, { GoogleTagManagerNoScript } from '../../lib/gtm';
 import '../globals.css';
 import { Metadata } from 'next';
 
@@ -66,8 +68,20 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <head>
         <StructuredData data={organizationData} />
+        {/* Google Tag Manager */}
+        {process.env.NEXT_PUBLIC_GTM_ID && (
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+        )}
+        {/* Google Analytics */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        )}
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gray-50`}>
+        {/* Google Tag Manager NoScript */}
+        {process.env.NEXT_PUBLIC_GTM_ID && (
+          <GoogleTagManagerNoScript gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
+        )}
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="min-h-screen">
