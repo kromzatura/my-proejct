@@ -2,37 +2,138 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "contact": "Contact",
-    "test": "Test"
+    "products": "Products",
+    "quality": "Quality & Certifications",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact"
   },
   "home": {
-    "title": "Welcome to Our International App",
-    "subtitle": "Built with Next.js and next-intl",
-    "description": "This is a modern internationalized web application supporting multiple languages with seamless navigation and beautiful design.",
-    "cta": "Get Started",
+    "hero": {
+      "title": "Excellence in B2B Solutions",
+      "subtitle": "LAR Group delivers innovative products and services to businesses worldwide",
+      "description": "With decades of experience in the industry, we provide reliable, high-quality solutions that help your business grow and succeed.",
+      "cta": "Explore Our Products",
+      "ctaSecondary": "Request Quote"
+    },
     "features": {
-      "responsive": "Responsive Design",
-      "i18n": "Internationalization",
-      "typescript": "TypeScript",
-      "tailwind": "Tailwind CSS"
+      "title": "Why Choose LAR Group",
+      "quality": {
+        "title": "Premium Quality",
+        "description": "All our products meet the highest industry standards and certifications"
+      },
+      "experience": {
+        "title": "Proven Experience",
+        "description": "Decades of expertise serving businesses across multiple industries"
+      },
+      "service": {
+        "title": "Exceptional Service",
+        "description": "Dedicated support team ensuring your complete satisfaction"
+      },
+      "innovation": {
+        "title": "Continuous Innovation",
+        "description": "Always advancing to bring you the latest solutions and technologies"
+      }
     }
   },
   "about": {
-    "title": "About Us",
-    "subtitle": "Learn more about our mission and values",
-    "content": "We are a modern company focused on creating innovative solutions for the global market. Our team is dedicated to delivering high-quality products that make a difference.",
-    "team": "Our Team",
-    "mission": "Our Mission",
-    "values": "Our Values"
+    "title": "About LAR Group",
+    "subtitle": "Your trusted partner in B2B excellence",
+    "hero": {
+      "title": "Leading the Industry with Innovation and Quality",
+      "description": "For over [X] years, LAR Group has been at the forefront of providing exceptional B2B solutions to companies worldwide."
+    },
+    "story": {
+      "title": "Our Story",
+      "content": "Founded with a vision to revolutionize the B2B landscape, LAR Group has grown from a small startup to a global leader in our industry. We've built our reputation on delivering uncompromising quality, innovative solutions, and exceptional customer service."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To empower businesses worldwide with innovative, high-quality products and services that drive growth, efficiency, and success."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": {
+        "quality": {
+          "title": "Quality First",
+          "description": "We never compromise on quality and maintain the highest standards in everything we do."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "We continuously invest in research and development to bring cutting-edge solutions to our clients."
+        },
+        "partnership": {
+          "title": "True Partnership",
+          "description": "We build long-term relationships with our clients, understanding their unique needs and challenges."
+        },
+        "integrity": {
+          "title": "Integrity",
+          "description": "We conduct business with transparency, honesty, and ethical practices at all times."
+        }
+      }
+    },
+    "stats": {
+      "years": "Years of Experience",
+      "clients": "Satisfied Clients",
+      "countries": "Countries Served",
+      "products": "Products Delivered"
+    }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "Get in touch with our team",
+    "title": "Contact LAR Group",
+    "subtitle": "Get in touch with our expert team",
+    "hero": {
+      "title": "Ready to Partner with Us?",
+      "description": "Contact our team today to discuss your requirements and discover how LAR Group can help your business succeed."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": {
+        "title": "Our Office",
+        "line1": "[Address Line 1]",
+        "line2": "[Address Line 2]",
+        "city": "[City, Country]"
+      },
+      "phone": {
+        "title": "Phone",
+        "number": "+XX XXX XXX XXXX"
+      },
+      "email": {
+        "title": "Email",
+        "general": "info@largroup.com",
+        "sales": "sales@largroup.com",
+        "support": "support@largroup.com"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "timezone": "Central European Time (CET)"
+      }
+    },
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Send Message"
+      "title": "Send us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you within 24 hours",
+      "fields": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "company": "Company",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Message",
+        "interests": "I'm interested in:",
+        "consent": "I agree to the processing of my personal data according to the privacy policy"
+      },
+      "interests": {
+        "products": "Products",
+        "services": "Services",
+        "partnership": "Partnership",
+        "support": "Support",
+        "other": "Other"
+      },
+      "submit": "Send Message",
+      "success": "Thank you for your message! We'll get back to you soon.",
+      "error": "There was an error sending your message. Please try again."
     }
   },
   "test": {
@@ -46,6 +147,51 @@
       "navigation": "Navigation Links",
       "content": "Dynamic Content",
       "routing": "Locale-based Routing"
+    }
+  },
+  "blog": {
+    "title": "LAR Group Blog",
+    "subtitle": "Industry insights, news, and expert knowledge",
+    "hero": {
+      "title": "Stay Informed with Our Latest Insights",
+      "description": "Discover industry trends, product updates, and expert insights from the LAR Group team."
+    },
+    "categories": {
+      "all": "All Articles",
+      "industry": "Industry News",
+      "products": "Product Updates",
+      "insights": "Expert Insights",
+      "announcements": "Company News"
+    },
+    "readMore": "Read More",
+    "readingTime": "min read",
+    "publishedOn": "Published on",
+    "author": "By",
+    "relatedPosts": "Related Articles",
+    "shareArticle": "Share this article",
+    "backToBlog": "Back to Blog"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our products and services",
+    "hero": {
+      "title": "Got Questions? We Have Answers",
+      "description": "Browse through our frequently asked questions or contact our support team for personalized assistance."
+    },
+    "categories": {
+      "general": "General",
+      "products": "Products & Services",
+      "orders": "Orders & Delivery",
+      "quality": "Quality & Certifications",
+      "support": "Technical Support",
+      "pricing": "Pricing & Payment"
+    },
+    "searchPlaceholder": "Search FAQ...",
+    "noResults": "No questions found matching your search.",
+    "stillNeedHelp": {
+      "title": "Still need help?",
+      "description": "Can't find what you're looking for? Our support team is here to help.",
+      "contactButton": "Contact Support"
     }
   }
 }

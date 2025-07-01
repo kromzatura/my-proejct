@@ -1,44 +1,190 @@
 {
   "nav": {
     "home": "Home",
-    "about": "Over",
-    "contact": "Contact",
-    "test": "Test"
+    "about": "Over Ons",
+    "products": "Producten",
+    "quality": "Kwaliteit & Certificeringen",
+    "blog": "Blog",
+    "faq": "Veelgestelde Vragen",
+    "contact": "Contact"
   },
   "home": {
-    "title": "Welkom bij Onze Internationale App",
-    "subtitle": "Gebouwd met Next.js en next-intl",
-    "description": "Dit is een moderne geïnternationaliseerde webapplicatie die meerdere talen ondersteunt met naadloze navigatie en prachtig ontwerp.",
-    "cta": "Aan de Slag",
+    "hero": {
+      "title": "Excellentie in B2B Oplossingen",
+      "subtitle": "LAR Group levert innovatieve producten en diensten aan bedrijven wereldwijd",
+      "description": "Met tientallen jaren ervaring in de industrie bieden wij betrouwbare, hoogwaardige oplossingen die uw bedrijf helpen groeien en slagen.",
+      "cta": "Ontdek Onze Producten",
+      "ctaSecondary": "Offerte Aanvragen"
+    },
     "features": {
-      "responsive": "Responsief Ontwerp",
-      "i18n": "Internationalisatie",
-      "typescript": "TypeScript",
-      "tailwind": "Tailwind CSS"
+      "title": "Waarom Kiezen voor LAR Group",
+      "quality": {
+        "title": "Premium Kwaliteit",
+        "description": "Al onze producten voldoen aan de hoogste industriestandaarden en certificeringen"
+      },
+      "experience": {
+        "title": "Bewezen Ervaring",
+        "description": "Tientallen jaren expertise in het bedienen van bedrijven in verschillende industrieën"
+      },
+      "service": {
+        "title": "Uitzonderlijke Service",
+        "description": "Toegewijd supportteam dat zorgt voor uw volledige tevredenheid"
+      },
+      "innovation": {
+        "title": "Continue Innovatie",
+        "description": "Altijd vooruitstrevend om u de nieuwste oplossingen en technologieën te brengen"
+      }
     }
   },
   "about": {
-    "title": "Over Ons",
-    "subtitle": "Leer meer over onze missie en waarden",
-    "content": "Wij zijn een modern bedrijf gericht op het creëren van innovatieve oplossingen voor de wereldmarkt. Ons team is toegewijd aan het leveren van hoogwaardige producten die het verschil maken.",
-    "team": "Ons Team",
-    "mission": "Onze Missie",
-    "values": "Onze Waarden"
+    "title": "Over LAR Group",
+    "subtitle": "Uw vertrouwde partner in B2B excellentie",
+    "hero": {
+      "title": "Leidend in de Industrie met Innovatie en Kwaliteit",
+      "description": "Al meer dan [X] jaar staat LAR Group voorop in het leveren van uitzonderlijke B2B oplossingen aan bedrijven wereldwijd."
+    },
+    "story": {
+      "title": "Ons Verhaal",
+      "content": "Opgericht met de visie om het B2B landschap te revolutioneren, is LAR Group gegroeid van een kleine startup tot een wereldleider in onze industrie. We hebben onze reputatie opgebouwd door compromisloze kwaliteit, innovatieve oplossingen en uitzonderlijke klantenservice te leveren."
+    },
+    "mission": {
+      "title": "Onze Missie",
+      "content": "Bedrijven wereldwijd versterken met innovatieve, hoogwaardige producten en diensten die groei, efficiëntie en succes stimuleren."
+    },
+    "values": {
+      "title": "Onze Waarden",
+      "items": {
+        "quality": {
+          "title": "Kwaliteit Voorop",
+          "description": "We maken nooit compromissen op kwaliteit en handhaven de hoogste standaarden in alles wat we doen."
+        },
+        "innovation": {
+          "title": "Innovatie",
+          "description": "We investeren continu in onderzoek en ontwikkeling om geavanceerde oplossingen aan onze klanten te brengen."
+        },
+        "partnership": {
+          "title": "Echte Partnerschap",
+          "description": "We bouwen langetermijnrelaties met onze klanten en begrijpen hun unieke behoeften en uitdagingen."
+        },
+        "integrity": {
+          "title": "Integriteit",
+          "description": "We doen zaken met transparantie, eerlijkheid en ethische praktijken te allen tijde."
+        }
+      }
+    },
+    "stats": {
+      "years": "Jaar Ervaring",
+      "clients": "Tevreden Klanten",
+      "countries": "Landen Bediend",
+      "products": "Producten Geleverd"
+    }
   },
   "contact": {
-    "title": "Neem Contact Op",
-    "subtitle": "Kom in contact met ons team",
+    "title": "Contact LAR Group",
+    "subtitle": "Neem contact op met ons expert team",
+    "hero": {
+      "title": "Klaar om Partner te Worden?",
+      "description": "Neem vandaag contact op met ons team om uw eisen te bespreken en te ontdekken hoe LAR Group uw bedrijf kan helpen slagen."
+    },
+    "info": {
+      "title": "Contactinformatie",
+      "address": {
+        "title": "Ons Kantoor",
+        "line1": "[Adres Regel 1]",
+        "line2": "[Adres Regel 2]",
+        "city": "[Stad, Land]"
+      },
+      "phone": {
+        "title": "Telefoon",
+        "number": "+XX XXX XXX XXXX"
+      },
+      "email": {
+        "title": "E-mail",
+        "general": "info@largroup.com",
+        "sales": "verkoop@largroup.com",
+        "support": "support@largroup.com"
+      },
+      "hours": {
+        "title": "Openingstijden",
+        "weekdays": "Maandag - Vrijdag: 9:00 - 18:00",
+        "timezone": "Midden-Europese Tijd (CET)"
+      }
+    },
     "form": {
-      "name": "Naam",
-      "email": "E-mail",
-      "message": "Bericht",
-      "submit": "Verstuur Bericht"
+      "title": "Stuur ons een Bericht",
+      "subtitle": "Vul het onderstaande formulier in en we nemen binnen 24 uur contact met u op",
+      "fields": {
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mailadres",
+        "company": "Bedrijf",
+        "phone": "Telefoonnummer",
+        "subject": "Onderwerp",
+        "message": "Bericht",
+        "interests": "Ik ben geïnteresseerd in:",
+        "consent": "Ik ga akkoord met de verwerking van mijn persoonlijke gegevens volgens het privacybeleid"
+      },
+      "interests": {
+        "products": "Producten",
+        "services": "Diensten",
+        "partnership": "Partnerschap",
+        "support": "Support",
+        "other": "Anders"
+      },
+      "submit": "Bericht Versturen",
+      "success": "Bedankt voor uw bericht! We nemen binnenkort contact met u op.",
+      "error": "Er is een fout opgetreden bij het versturen van uw bericht. Probeer het opnieuw."
+    }
+  },
+  "blog": {
+    "title": "LAR Group Blog",
+    "subtitle": "Industrie-inzichten, nieuws en expertkennis",
+    "hero": {
+      "title": "Blijf op de Hoogte van Onze Laatste Inzichten",
+      "description": "Ontdek industrietrends, productupdate en expertinzichten van het LAR Group team."
+    },
+    "categories": {
+      "all": "Alle Artikelen",
+      "industry": "Industrienieuws",
+      "products": "Productupdate",
+      "insights": "Expertinzichten",
+      "announcements": "Bedrijfsnieuws"
+    },
+    "readMore": "Lees Meer",
+    "readingTime": "min lezen",
+    "publishedOn": "Gepubliceerd op",
+    "author": "Door",
+    "relatedPosts": "Gerelateerde Artikelen",
+    "shareArticle": "Deel dit artikel",
+    "backToBlog": "Terug naar Blog"
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "subtitle": "Vind antwoorden op veelgestelde vragen over onze producten en diensten",
+    "hero": {
+      "title": "Heeft u Vragen? Wij Hebben Antwoorden",
+      "description": "Blader door onze veelgestelde vragen of neem contact op met ons supportteam voor persoonlijke hulp."
+    },
+    "categories": {
+      "general": "Algemeen",
+      "products": "Producten & Diensten",
+      "orders": "Bestellingen & Levering",
+      "quality": "Kwaliteit & Certificeringen",
+      "support": "Technische Support",
+      "pricing": "Prijzen & Betaling"
+    },
+    "searchPlaceholder": "Zoek FAQ...",
+    "noResults": "Geen vragen gevonden die overeenkomen met uw zoekopdracht.",
+    "stillNeedHelp": {
+      "title": "Nog steeds hulp nodig?",
+      "description": "Kunt u niet vinden wat u zoekt? Ons supportteam staat klaar om te helpen.",
+      "contactButton": "Neem Contact Op"
     }
   },
   "test": {
-    "title": "Taal Test Pagina",
-    "subtitle": "Test de taalwisselfunctionaliteit",
-    "description": "Deze pagina toont de internationalisatiefuncties van onze applicatie. Je kunt tussen talen wisselen met de taalwisselaar in de header.",
+    "title": "Taaltest Pagina",
+    "subtitle": "Test de taalwisseling functionaliteit",
+    "description": "Deze pagina demonstreert de internationalisatie functies van onze applicatie. U kunt tussen talen schakelen met de taalwisselaar in de header.",
     "currentLanguage": "Huidige Taal",
     "switchInstructions": "Gebruik de taalwisselaar in de header om van taal te wisselen.",
     "features": {

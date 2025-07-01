@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../globals.css';
 
 const geistSans = Geist({
@@ -39,11 +40,10 @@ export default async function LocaleLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gray-50`}>
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="pt-16 min-h-screen">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-              {children}
-            </div>
+          <main className="min-h-screen">
+            {children}
           </main>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
