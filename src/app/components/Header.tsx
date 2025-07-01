@@ -2,9 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
-import { Link } from '../../i18n/routing';
+import { Link, usePathname } from '../../i18n/routing';
 import { useState } from 'react';
-import { usePathname } from 'next/navigation';
 
 export default function Header() {
   const t = useTranslations('nav');
@@ -22,15 +21,8 @@ export default function Header() {
     { name: t('contact'), href: '/contact' },
   ];
 
-  const switchLocale = (newLocale: string) => {
-    const segments = pathname.split('/');
-    const cleanPath = segments.slice(2).join('/');
-    return `/${newLocale}${cleanPath ? `/${cleanPath}` : ''}`;
-  };
-
-  // Check active locale
-  const isNlActive = pathname.startsWith('/nl');
-  const isEnActive = pathname.startsWith('/en');
+  // Check active locale - using the current locale from useLocale
+  const currentLocale = locale;
 
   return (
     <header className="bg-white shadow-lg border-b border-gray-200">
@@ -73,9 +65,10 @@ export default function Header() {
             {/* Language Switcher */}
             <div className="flex items-center space-x-1 bg-gray-100 rounded-lg p-1">
               <Link
-                href={switchLocale('nl')}
+                href={pathname}
+                locale="nl"
                 className={`px-3 py-2 text-sm font-medium rounded-md transition-all ${
-                  isNlActive
+                  currentLocale === 'nl'
                     ? 'bg-blue-900 text-white shadow-sm' 
                     : 'text-gray-600 hover:text-blue-900 hover:bg-white'
                 }`}
@@ -83,9 +76,10 @@ export default function Header() {
                 NL
               </Link>
               <Link
-                href={switchLocale('en')}
+                href={pathname}
+                locale="en"
                 className={`px-3 py-2 text-sm font-medium rounded-md transition-all ${
-                  isEnActive
+                  currentLocale === 'en'
                     ? 'bg-blue-900 text-white shadow-sm' 
                     : 'text-gray-600 hover:text-blue-900 hover:bg-white'
                 }`}
@@ -131,17 +125,19 @@ export default function Header() {
               <div className="flex items-center space-x-2 px-4 pt-4">
                 <span className="text-sm text-gray-600">Language:</span>
                 <Link
-                  href={switchLocale('nl')}
+                  href={pathname}
+                  locale="nl"
                   className={`px-3 py-1 text-sm rounded transition-colors ${
-                    isNlActive ? 'bg-blue-900 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                    currentLocale === 'nl' ? 'bg-blue-900 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                   }`}
                 >
                   NL
                 </Link>
                 <Link
-                  href={switchLocale('en')}
+                  href={pathname}
+                  locale="en"
                   className={`px-3 py-1 text-sm rounded transition-colors ${
-                    isEnActive ? 'bg-blue-900 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                    currentLocale === 'en' ? 'bg-blue-900 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                   }`}
                 >
                   EN
