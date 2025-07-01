@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '../../../../i18n/routing';
 import { notFound } from 'next/navigation';
 
@@ -36,14 +36,16 @@ const getBlogPost = (slug: string) => {
 };
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
+    locale: string;
     slug: string;
-  };
+  }>;
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  const t = useTranslations('blog');
-  const post = getBlogPost(params.slug);
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { locale, slug } = await params;
+  const t = await getTranslations('blog');
+  const post = getBlogPost(slug);
 
   if (!post) {
     notFound();

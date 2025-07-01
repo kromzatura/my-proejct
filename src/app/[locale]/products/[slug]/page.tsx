@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '../../../../i18n/routing';
 import { sanityFetch, queries, urlFor } from '../../../../lib/sanity';
 import { Product } from '../../../../types/sanity';
@@ -54,7 +54,7 @@ export default async function ProductDetailPage({
   params 
 }: ProductDetailPageProps) {
   const { locale, slug } = await params;
-  const t = useTranslations('productDetail');
+  const t = await getTranslations('productDetail');
   
   // Try to fetch product from Sanity
   const product = await sanityFetch<Product>(queries.productBySlug, { slug });

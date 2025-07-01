@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '../../../i18n/routing';
 import { sanityFetch, queries, urlFor } from '../../../lib/sanity';
 import { Product } from '../../../types/sanity';
@@ -39,7 +39,7 @@ export default async function ProductsPage({
   params 
 }: ProductsPageProps) {
   const { locale } = await params;
-  const t = useTranslations('products');
+  const t = await getTranslations('products');
   
   // Fetch products from Sanity CMS (with fallback for development)
   const products = await sanityFetch<Product[]>(queries.allProducts) || [];
@@ -135,7 +135,7 @@ export default async function ProductsPage({
 
 // Product Card Component
 function ProductCard({ product, locale }: { product: Product; locale: string }) {
-  const imageUrl = product.image ? urlFor(product.image).width(400).height(300).url() : '/placeholder-product.jpg';
+  const imageUrl = product.image ? urlFor(product.image).width(400).height(300).url() : '/placeholder-product.svg';
   
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
